@@ -12,11 +12,3 @@ def likes(names):
     else:
         message = str(names[0]) + ", " + str(names[1]) + " and " + str(num_likes - 2) + " others like this"
     return message
-    
-print(likes([]))    
-print(likes(["Kyle"]))
-print(likes(["Kyle", "Erica"]))
-print(likes(["Kyle", "Erica", "Niki"]))
-print(likes(["Kyle", "Erica", "Niki", "Jazz"]))
-print(likes(["Kyle", "Erica", "Niki", "Jazz", "Tony", "Harvey"]))
-print(likes(["Kyle", "Erica", "Niki", "Jazz", "Tony", "Scott", "Harvey"]))
